@@ -1,0 +1,163 @@
+digraph G { page="8.5,11"; size="7.5, 10"
+	"List1" [label="List"]
+	"Expr2" [label="Expr"]
+	"List1" -> "Expr2"
+	"Term3" [label="Term"]
+	"Expr2" -> "Term3"
+	"Factor4" [label="Factor"]
+	"Term3" -> "Factor4"
+	"num5" [label="num",style=filled,fillcolor=powderblue]
+	"Factor4" -> "num5"
+	"TermPrime6" [label="TermPrime"]
+	"Term3" -> "TermPrime6"
+	"ExprPrime7" [label="ExprPrime"]
+	"Expr2" -> "ExprPrime7"
+	"-8" [label="-",style=filled,fillcolor=powderblue]
+	"ExprPrime7" -> "-8"
+	"Term9" [label="Term"]
+	"ExprPrime7" -> "Term9"
+	"Factor10" [label="Factor"]
+	"Term9" -> "Factor10"
+	"(11" [label="(",style=filled,fillcolor=powderblue]
+	"Factor10" -> "(11"
+	"Expr12" [label="Expr"]
+	"Factor10" -> "Expr12"
+	"Term13" [label="Term"]
+	"Expr12" -> "Term13"
+	"Factor14" [label="Factor"]
+	"Term13" -> "Factor14"
+	"num15" [label="num",style=filled,fillcolor=powderblue]
+	"Factor14" -> "num15"
+	"TermPrime16" [label="TermPrime"]
+	"Term13" -> "TermPrime16"
+	"ExprPrime17" [label="ExprPrime"]
+	"Expr12" -> "ExprPrime17"
+	"-18" [label="-",style=filled,fillcolor=powderblue]
+	"ExprPrime17" -> "-18"
+	"Term19" [label="Term"]
+	"ExprPrime17" -> "Term19"
+	"Factor20" [label="Factor"]
+	"Term19" -> "Factor20"
+	"num21" [label="num",style=filled,fillcolor=powderblue]
+	"Factor20" -> "num21"
+	"TermPrime22" [label="TermPrime"]
+	"Term19" -> "TermPrime22"
+	"ExprPrime23" [label="ExprPrime"]
+	"ExprPrime17" -> "ExprPrime23"
+	")24" [label=")",style=filled,fillcolor=powderblue]
+	"Factor10" -> ")24"
+	"TermPrime25" [label="TermPrime"]
+	"Term9" -> "TermPrime25"
+	"ExprPrime26" [label="ExprPrime"]
+	"ExprPrime7" -> "ExprPrime26"
+	".27" [label=".",style=filled,fillcolor=powderblue]
+	"List1" -> ".27"
+
+
+The answer of last calucation is 7
+
+	"ListPrime28" [label="ListPrime"]
+	"List1" -> "ListPrime28"
+	"Expr29" [label="Expr"]
+	"ListPrime28" -> "Expr29"
+	"Term30" [label="Term"]
+	"Expr29" -> "Term30"
+	"Factor31" [label="Factor"]
+	"Term30" -> "Factor31"
+	"|32" [label="|",style=filled,fillcolor=powderblue]
+	"Factor31" -> "|32"
+	"Expr33" [label="Expr"]
+	"Factor31" -> "Expr33"
+	"Term34" [label="Term"]
+	"Expr33" -> "Term34"
+	"Factor35" [label="Factor"]
+	"Term34" -> "Factor35"
+	"num36" [label="num",style=filled,fillcolor=powderblue]
+	"Factor35" -> "num36"
+	"TermPrime37" [label="TermPrime"]
+	"Term34" -> "TermPrime37"
+	"ExprPrime38" [label="ExprPrime"]
+	"Expr33" -> "ExprPrime38"
+	"-39" [label="-",style=filled,fillcolor=powderblue]
+	"ExprPrime38" -> "-39"
+	"Term40" [label="Term"]
+	"ExprPrime38" -> "Term40"
+	"Factor41" [label="Factor"]
+	"Term40" -> "Factor41"
+	"|42" [label="|",style=filled,fillcolor=powderblue]
+	"Factor41" -> "|42"
+	"Expr43" [label="Expr"]
+	"Factor41" -> "Expr43"
+	"Term44" [label="Term"]
+	"Expr43" -> "Term44"
+	"Factor45" [label="Factor"]
+	"Term44" -> "Factor45"
+	"num46" [label="num",style=filled,fillcolor=powderblue]
+	"Factor45" -> "num46"
+	"TermPrime47" [label="TermPrime"]
+	"Term44" -> "TermPrime47"
+	"ExprPrime48" [label="ExprPrime"]
+	"Expr43" -> "ExprPrime48"
+	"-49" [label="-",style=filled,fillcolor=powderblue]
+	"ExprPrime48" -> "-49"
+	"Term50" [label="Term"]
+	"ExprPrime48" -> "Term50"
+	"Factor51" [label="Factor"]
+	"Term50" -> "Factor51"
+	"|52" [label="|",style=filled,fillcolor=powderblue]
+	"Factor51" -> "|52"
+	"Expr53" [label="Expr"]
+	"Factor51" -> "Expr53"
+	"Term54" [label="Term"]
+	"Expr53" -> "Term54"
+	"Factor55" [label="Factor"]
+	"Term54" -> "Factor55"
+	"|56" [label="|",style=filled,fillcolor=powderblue]
+	"Factor55" -> "|56"
+	"Expr57" [label="Expr"]
+	"Factor55" -> "Expr57"
+	"Term58" [label="Term"]
+	"Expr57" -> "Term58"
+	"Factor59" [label="Factor"]
+	"Term58" -> "Factor59"
+	"|60" [label="|",style=filled,fillcolor=powderblue]
+	"Factor59" -> "|60"
+	"Expr61" [label="Expr"]
+	"Factor59" -> "Expr61"
+	"Term62" [label="Term"]
+	"Expr61" -> "Term62"
+	"Factor63" [label="Factor"]
+	"Term62" -> "Factor63"
+	"num64" [label="num",style=filled,fillcolor=powderblue]
+	"Factor63" -> "num64"
+	"TermPrime65" [label="TermPrime"]
+	"Term62" -> "TermPrime65"
+	"ExprPrime66" [label="ExprPrime"]
+	"Expr61" -> "ExprPrime66"
+	"|67" [label="|",style=filled,fillcolor=powderblue]
+	"Factor59" -> "|67"
+	"TermPrime68" [label="TermPrime"]
+	"Term58" -> "TermPrime68"
+	"ExprPrime69" [label="ExprPrime"]
+	"Expr57" -> "ExprPrime69"
+	"|70" [label="|",style=filled,fillcolor=powderblue]
+	"Factor55" -> "|70"
+	"TermPrime71" [label="TermPrime"]
+	"Term54" -> "TermPrime71"
+	"ExprPrime72" [label="ExprPrime"]
+	"Expr53" -> "ExprPrime72"
+	"|73" [label="|",style=filled,fillcolor=powderblue]
+	"Factor51" -> "|73"
+	"TermPrime74" [label="TermPrime"]
+	"Term50" -> "TermPrime74"
+	"ExprPrime75" [label="ExprPrime"]
+	"ExprPrime48" -> "ExprPrime75"
+	"|76" [label="|",style=filled,fillcolor=powderblue]
+	"Factor41" -> "|76"
+	"TermPrime77" [label="TermPrime"]
+	"Term40" -> "TermPrime77"
+	"ExprPrime78" [label="ExprPrime"]
+	"ExprPrime38" -> "ExprPrime78"
+	"|79" [label="|",style=filled,fillcolor=powderblue]
+	"Factor31" -> "|79"
+syntax error: found . expecting | - line 2
